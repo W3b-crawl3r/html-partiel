@@ -1,0 +1,36 @@
+.top_header {
+    background-color: #826300;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: #faeddf;
+}
+.itemnavbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
