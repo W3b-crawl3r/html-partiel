@@ -1,11 +1,12 @@
 .top_header {
     background-color: #826300;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    font-family: lexend, sans-serif;
 }
 body{
     color: white;
@@ -21,6 +22,8 @@ body{
     align-items: center;
     color: black;
     background-color: #faeddf;
+    font-family: lexend, sans-serif;
+
 }
 .itemnavbar{
     display: flex;
@@ -33,4 +36,77 @@ body{
     align-items: center;
     gap: 20px;
     
+}
+.hero{
+    background-image: url("./pics/bg-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    
+}
+.hero-content{
+    font-family: lexend, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    .shop-now{
+        background-color: #826300;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.main-content{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.view-all-button{
+    font-family: lexend, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #826300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    align-content: center;
+}
+.learn-more-banner {
+    background-image: url("./pics/Rectangle\ 8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: lexend, sans-serif;
+    .shop-now{
+        background-color: #826300;
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 10%;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
 }
